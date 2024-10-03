@@ -44,13 +44,13 @@ def search_words(text, words):
     return word_counts
 
 # Streamlit App Layout
-st.title("Word Search App")
+st.title("Normalize Word Search")
 
 # Input for words to search (comma-separated)
 words_input = st.text_area("Words to search (comma-separated):", height=100)
 
 # Input for the text to search in
-text_to_search = st.text_area("Text to search in:", height=200)
+text_to_search = st.text_area("Text to search in title or description:", height=200)
 
 # Search button
 if st.button("Search"):
